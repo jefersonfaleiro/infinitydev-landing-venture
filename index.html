@@ -1,753 +1,633 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InfinityDev Mentorias - Tecnologia e Educação</title>
-    <meta name="description" content="Mentoria especializada em tecnologia, educação e transição de carreira" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Feather Icons (equivalent to Lucide) -->
-    <script src="https://unpkg.com/feather-icons"></script>
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header class="header" id="header">
-      <div class="container">
-        <div class="header-content">
-          <!-- Logo -->
-          <div class="logo">
-            <a href="#" class="logo-text">InfinityDev</a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfinityDev Mentorias - Tecnologia e Educação</title>
+  <meta name="description" content="Mentoria especializada em tecnologia, educação e transição de carreira" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Feather Icons (equivalent to Lucide) -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
 
-          <!-- Desktop Navigation -->
-          <nav class="nav-desktop">
-            <ul class="nav-links">
-              <li><a href="#quem-sou" class="nav-link">Quem Sou</a></li>
-              <li><a href="#servicos" class="nav-link">Serviços</a></li>
-              <li><a href="#carreira" class="nav-link">Carreira</a></li>
-              <li><a href="#ia-educacao" class="nav-link">IA na Educação</a></li>
-              <li><a href="#contato" class="nav-link">Contato</a></li>
-            </ul>
-          </nav>
-
-          <!-- Mobile Menu Button -->
-          <div class="menu-button">
-            <button id="menu-toggle">
-              <i data-feather="menu"></i>
-            </button>
-          </div>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#" class="logo-text">InfinityDev</a>
         </div>
-      </div>
 
-      <!-- Mobile Navigation -->
-      <div class="mobile-nav" id="mobile-nav">
-        <div class="mobile-nav-header">
-          <button id="mobile-nav-close">
-            <i data-feather="x"></i>
-          </button>
-        </div>
-        <nav class="mobile-nav-content">
-          <ul class="mobile-nav-links">
-            <li><a href="#quem-sou" class="mobile-nav-link">Quem Sou</a></li>
-            <li><a href="#servicos" class="mobile-nav-link">Serviços</a></li>
-            <li><a href="#carreira" class="mobile-nav-link">Carreira</a></li>
-            <li><a href="#ia-educacao" class="mobile-nav-link">IA na Educação</a></li>
-            <li><a href="#contato" class="mobile-nav-link">Contato</a></li>
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
+          <ul class="nav-links">
+            <li><a href="#quem-sou" class="nav-link">Quem Sou</a></li>
+            <li><a href="#servicos" class="nav-link">Serviços</a></li>
+            <li><a href="#carreira" class="nav-link">Carreira</a></li>
+            <li><a href="#ia-educacao" class="nav-link">IA na Educação</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
           </ul>
         </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="menu-button">
+          <button id="menu-toggle">
+            <i data-feather="menu"></i>
+          </button>
+        </div>
       </div>
-    </header>
+    </div>
 
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <div class="hero-text">
-              <span class="tag">Mentoria Especializada</span>
-              <h1>Transforme sua carreira na área de tecnologia</h1>
-              <p>
-                Orientação profissional para iniciantes, profissionais em transição de carreira e 
-                instituições educacionais que desejam implementar tecnologias de ponta.
-              </p>
-              <div class="hero-actions">
-                <a href="#contato" class="btn btn-primary">Iniciar Agora</a>
-                <a href="#servicos" class="btn btn-outline">Conhecer Serviços</a>
-              </div>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav">
+      <div class="mobile-nav-header">
+        <button id="mobile-nav-close">
+          <i data-feather="x"></i>
+        </button>
+      </div>
+      <nav class="mobile-nav-content">
+        <ul class="mobile-nav-links">
+          <li><a href="#quem-sou" class="mobile-nav-link">Quem Sou</a></li>
+          <li><a href="#servicos" class="mobile-nav-link">Serviços</a></li>
+          <li><a href="#carreira" class="mobile-nav-link">Carreira</a></li>
+          <li><a href="#ia-educacao" class="mobile-nav-link">IA na Educação</a></li>
+          <li><a href="#contato" class="mobile-nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="tag">Mentoria Especializada</span>
+            <h1>Mentoria Especializada em Tecnologia e Educação</h1>
+            <p>
+
+              <b>Para Jovens Técnicos de Informática:</b>
+              Ofereço orientação personalizada para estudantes e profissionais iniciantes na área de TI, auxiliando no
+              desenvolvimento de habilidades técnicas e na construção de uma carreira sólida no setor tecnológico.
+
+              <b>Para Educadores:</b> Capacito professores a integrarem Inteligência Artificial em suas práticas
+              pedagógicas,
+              promovendo inovação no ensino e aprimorando a experiência educacional dos alunos.
+            </p>
+            <div class="hero-actions">
+              <a href="#contato" class="btn btn-primary">Iniciar Agora</a>
+              <a href="#servicos" class="btn btn-outline">Conhecer Serviços</a>
             </div>
-            <div class="hero-image">
-              <div class="image-container">
-                <div id="hero-slider" class="hero-slider">
-                  <div class="slide active">
-                    <h3>Mentoria para Desenvolvimento Profissional</h3>
-                    <p>Acompanhamento personalizado para desenvolver competências técnicas e comportamentais</p>
-                  </div>
-                  <div class="slide">
-                    <h3>Orientação para Transição de Carreira</h3>
-                    <p>Estratégias eficazes para realizar uma mudança segura e bem-sucedida</p>
-                  </div>
-                  <div class="slide">
-                    <h3>Capacitação em Tecnologias Educacionais</h3>
-                    <p>Workshops e treinamentos para professores e instituições de ensino</p>
-                  </div>
-                  <div class="slide">
-                    <h3>Consultoria em IA aplicada à Educação</h3>
-                    <p>Implementação de soluções inovadoras para otimizar processos de aprendizagem</p>
-                  </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-container">
+              <div id="hero-slider" class="hero-slider">
+                <div class="slide active">
+                  <h3>Mentoria Especializada em Tecnologia e Educação</h3>
+                  <p>Oferecemos orientação personalizada para jovens profissionais de TI, visando o desenvolvimento de
+                    competências técnicas e comportamentais essenciais para o mercado de trabalho. Além disso,
+                    capacitamos educadores na aplicação de Inteligência Artificial em suas práticas pedagógicas,
+                    promovendo inovação e eficácia no ensino.</p>
+
                 </div>
-                <div class="slider-controls">
-                  <button id="prev-slide"><i data-feather="chevron-left"></i></button>
-                  <div class="slider-dots" id="slider-dots"></div>
-                  <button id="next-slide"><i data-feather="chevron-right"></i></button>
+
+                <div class="slide">
+                  <h3>Capacitação em Tecnologias Educacionais</h3>
+                  <p>Workshops e treinamentos para professores e instituições de ensino</p>
                 </div>
+
+              </div>
+              <div class="slider-controls">
+                <button id="prev-slide"><i data-feather="chevron-left"></i></button>
+                <div class="slider-dots" id="slider-dots"></div>
+                <button id="next-slide"><i data-feather="chevron-right"></i></button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- About Section -->
-      <section id="quem-sou" class="about">
-        <div class="section-divider"></div>
-        <div class="container">
-          <div class="section-header">
-            <span class="tag">Conhecimento e Experiência</span>
-            <h2>Quem Sou</h2>
-            <div class="header-line"></div>
-          </div>
-          
-          <div class="about-content">
-            <div class="profile-info">
-              <div class="about-card">
-                <h3>27 anos na área de informática</h3>
-                <p>
-                  Com uma extensa trajetória na área de tecnologia, desenvolvi expertise em diversas 
-                  tecnologias e metodologias educacionais, capacitando estudantes e profissionais 
-                  para os desafios do mercado atual.
-                </p>
-              </div>
-              
-              <div class="about-card">
-                <div class="card-header">
-                  <div class="icon-bg">
-                    <i data-feather="book-open"></i>
-                  </div>
-                  <h4>Formação Acadêmica</h4>
-                </div>
-                <ul class="about-list">
-                  <li>
-                    <i data-feather="award"></i>
-                    <span>Tecnólogo em Desenvolvimento de Sistemas</span>
-                  </li>
-                  <li>
-                    <i data-feather="award"></i>
-                    <span>Pós-graduação em Formação Pedagógica</span>
-                  </li>
-                  <li>
-                    <i data-feather="award"></i>
-                    <span>Pós-graduação em Gestão Escolar</span>
-                  </li>
-                  <li>
-                    <i data-feather="award"></i>
-                    <span>Pós-graduação em Meios Digitais na Educação</span>
-                  </li>
-                </ul>
-              </div>
-              
-              <div class="about-card">
-                <div class="card-header">
-                  <div class="icon-bg">
-                    <i data-feather="briefcase"></i>
-                  </div>
-                  <h4>Experiência Profissional</h4>
-                </div>
-                <ul class="about-list">
-                  <li>
-                    <i data-feather="check"></i>
-                    <span>Professor e Coordenador no Colégio ULBRA São Lucas</span>
-                  </li>
-                  <li>
-                    <i data-feather="check"></i>
-                    <span>Docente no SENAC, IPUC, QI, Alcides Maya e Universitário</span>
-                  </li>
-                  <li>
-                    <i data-feather="check"></i>
-                    <span>Especialista em Inteligência Artificial aplicada à educação</span>
-                  </li>
-                </ul>
-              </div>
+    <!-- About Section -->
+    <section id="quem-sou" class="about">
+      <div class="section-divider"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Conhecimento e Experiência</span>
+          <h2>Quem Sou</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-content">
+          <div class="profile-info">
+            <div class="about-card">
+              <h3>27 anos na área de informática</h3>
+              <p>
+                Com uma extensa trajetória na área de tecnologia, desenvolvi expertise em diversas
+                tecnologias e metodologias educacionais, capacitando estudantes e profissionais
+                para os desafios do mercado atual.
+              </p>
             </div>
-            
-            <div class="profile-image">
-              <div class="experience-box">
-                <div class="experience-number">27+</div>
-                <div class="experience-text">Anos de Experiência</div>
+
+            <div class="about-card">
+              <div class="card-header">
+                <div class="icon-bg">
+                  <i data-feather="book-open"></i>
+                </div>
+                <h4>Formação Acadêmica</h4>
               </div>
-              <div class="about-caption">
-                <h4>Um mundo de possibilidades</h4>
-                <p>
-                  Combinando tecnologia e educação para formar profissionais preparados para os desafios do futuro.
-                </p>
+              <ul class="about-list">
+                <li>
+                  <i data-feather="award"></i>
+                  <span>Tecnólogo em Desenvolvimento de Sistemas</span>
+                </li>
+                <li>
+                  <i data-feather="award"></i>
+                  <span>Pós-graduação em Formação Pedagógica</span>
+                </li>
+                <li>
+                  <i data-feather="award"></i>
+                  <span>Pós-graduação em Gestão Escolar</span>
+                </li>
+                <li>
+                  <i data-feather="award"></i>
+                  <span>Pós-graduação em Meios Digitais na Educação</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="about-card">
+              <div class="card-header">
+                <div class="icon-bg">
+                  <i data-feather="briefcase"></i>
+                </div>
+                <h4>Experiência Profissional</h4>
               </div>
+              <ul class="about-list">
+                <li>
+                  <i data-feather="check"></i>
+                  <span>Professor e Coordenador no Colégio ULBRA São Lucas</span>
+                </li>
+                <li>
+                  <i data-feather="check"></i>
+                  <span>Docente no SENAC, IPUC, QI, Alcides Maya e Universitário</span>
+                </li>
+                <li>
+                  <i data-feather="check"></i>
+                  <span>Especialista em Inteligência Artificial aplicada à educação</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="profile-image">
+            <div class="experience-box">
+              <div class="experience-number">25+</div>
+              <div class="experience-text">Anos de Experiência</div>
+            </div>
+            <div class="about-caption">
+              <h4>Um mundo de possibilidades</h4>
+              <p>
+                Combinando tecnologia e educação para formar profissionais preparados para os desafios do futuro.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Services Section -->
-      <section id="servicos" class="services">
-        <div class="container">
-          <div class="section-header">
-            <span class="tag">Nossos Serviços</span>
-            <h2>Como Podemos Ajudar</h2>
-            <div class="header-line"></div>
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Nossos Serviços</span>
+          <h2>Como Podemos Ajudar</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-feather="users"></i>
+            </div>
+            <h3>Mentoria Individual</h3>
+            <p>
+              Acompanhamento personalizado para o desenvolvimento de habilidades técnicas e comportamentais
+              necessárias para o mercado de trabalho em tecnologia.
+            </p>
+            <ul class="service-list">
+              <li><i data-feather="check"></i>Plano de desenvolvimento personalizado</li>
+              <li><i data-feather="check"></i>Sessões semanais ou quinzenais</li>
+              <li><i data-feather="check"></i>Feedback constante e acompanhamento</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline">Saiba Mais</a>
           </div>
-          
-          <div class="services-grid">
-            <div class="service-card">
-              <div class="service-icon">
-                <i data-feather="users"></i>
-              </div>
-              <h3>Mentoria Individual</h3>
-              <p>
-                Acompanhamento personalizado para o desenvolvimento de habilidades técnicas e comportamentais 
-                necessárias para o mercado de trabalho em tecnologia.
-              </p>
-              <ul class="service-list">
-                <li><i data-feather="check"></i>Plano de desenvolvimento personalizado</li>
-                <li><i data-feather="check"></i>Sessões semanais ou quinzenais</li>
-                <li><i data-feather="check"></i>Feedback constante e acompanhamento</li>
-              </ul>
-              <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-feather="book"></i>
             </div>
-            
-            <div class="service-card">
-              <div class="service-icon">
-                <i data-feather="briefcase"></i>
-              </div>
-              <h3>Transição de Carreira</h3>
-              <p>
-                Orientação especializada para profissionais que desejam migrar para a área de tecnologia, 
-                com planejamento estratégico e acompanhamento durante todo o processo.
-              </p>
-              <ul class="service-list">
-                <li><i data-feather="check"></i>Avaliação de perfil profissional</li>
-                <li><i data-feather="check"></i>Mapeamento de habilidades transferíveis</li>
-                <li><i data-feather="check"></i>Planejamento de estudos e certificações</li>
-              </ul>
-              <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+            <h3>Mentoria Especializada em Tecnologia e Educação</h3>
+            <p>
+              Oferecemos programas personalizados voltados para:
+            </p>
+            <ul class="service-list">
+              <li><i data-feather="check"></i><strong>Jovens Técnicos de Informática:</strong> Orientação no
+                desenvolvimento de competências técnicas e comportamentais essenciais para o mercado de TI.</li>
+              <li><i data-feather="check"></i><strong>Educadores:</strong> Capacitação para a integração de Inteligência
+                Artificial nas práticas pedagógicas, promovendo inovação e eficácia no ensino.</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-feather="cpu"></i>
             </div>
-            
-            <div class="service-card">
-              <div class="service-icon">
+            <h3>IA na Educação</h3>
+            <p>
+              Workshops e capacitações sobre a aplicação de Inteligência Artificial no contexto
+              educacional, para otimizar processos de ensino e aprendizagem.
+            </p>
+            <ul class="service-list">
+              <li><i data-feather="check"></i>Workshops práticos sobre IA</li>
+              <li><i data-feather="check"></i>Implementação de assistentes virtuais</li>
+              <li><i data-feather="check"></i>Análise de dados educacionais</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="carreira" class="career">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Transforme Seu Futuro</span>
+          <h2>Primeiro Emprego / Transição de Carreira</h2>
+          <p class="section-subtitle">
+            Orientação especializada para quem busca o primeiro emprego ou deseja mudar de área profissional.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="career-grid">
+          <!-- First-time job seekers -->
+          <div class="career-column">
+            <h3 class="career-title">
+              <i data-feather="users"></i>
+              Primeiro Emprego
+            </h3>
+
+            <div class="career-cards">
+              <div class="career-card">
+                <h4>Preparação Completa</h4>
+                <p>
+                  Desenvolvemos suas habilidades técnicas e comportamentais para garantir que você esteja
+                  totalmente preparado para iniciar sua carreira no mercado de tecnologia.
+                </p>
+                <h3>Serviços de Mentoria e Capacitação</h3>
+                <ul class="career-list">
+                  <li>
+                    <i data-feather="arrow-right"></i>
+                    <span><strong>Mentoria para Técnicos de Informática:</strong> Desenvolvimento de habilidades
+                      técnicas avançadas e orientação para progressão na carreira de TI.</span>
+                  </li>
+                  <li>
+                    <i data-feather="arrow-right"></i>
+                    <span><strong>Capacitação em Inteligência Artificial para Educadores:</strong> Formação para a
+                      integração de IA nas práticas de ensino, promovendo inovação e eficácia pedagógica.</span>
+                  </li>
+                  <li>
+                    <i data-feather="arrow-right"></i>
+                    <span><strong>Workshops e Palestras:</strong> Sessões interativas sobre as tendências atuais em
+                      tecnologia educacional e aplicações práticas da IA no ambiente escolar.</span>
+                  </li>
+                </ul>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Results section -->
+        <div class="results-box">
+          <h3 class="results-title">
+            <i data-feather="trending-up"></i>
+            Resultados que Transformam Vidas
+          </h3>
+
+          <div class="results-stats">
+            <div class="stat-item">
+              <div class="stat-number">87%</div>
+              <p>dos profissionais que participam de programas de mentoria apresentam melhor retenção e desenvolvimento
+                de carreira.</p>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number">85%</div>
+              <p>das empresas relatam que programas de mentoria ajudam no desenvolvimento de habilidades essenciais em
+                seus colaboradores.</p>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number">97%</div>
+              <p>dos educadores reconhecem a importância de adquirir competências digitais para integrar a IA em suas
+                práticas pedagógicas.</p>
+            </div>
+          </div>
+
+
+          <div class="results-cta">
+            <a href="#contato" class="btn btn-light">Inicie Sua Transformação</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Section -->
+    <section id="ia-educacao" class="ai-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">O Futuro da Educação</span>
+          <h2>Inteligência Artificial na Educação</h2>
+          <p class="section-subtitle">
+            Transforme a experiência de aprendizagem com as mais avançadas tecnologias de IA.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="ai-content">
+          <div class="ai-visual">
+            <div class="ai-circle">
+              <i data-feather="cpu" class="ai-icon"></i>
+
+              <div class="floating-icon icon-1">
+                <i data-feather="bulb"></i>
+              </div>
+
+              <div class="floating-icon icon-2">
                 <i data-feather="book"></i>
               </div>
-              <h3>Consultoria Educacional</h3>
-              <p>
-                Serviços de consultoria para instituições de ensino que desejam aprimorar 
-                suas metodologias e implementar novas tecnologias educacionais.
-              </p>
-              <ul class="service-list">
-                <li><i data-feather="check"></i>Diagnóstico institucional</li>
-                <li><i data-feather="check"></i>Capacitação de equipes pedagógicas</li>
-                <li><i data-feather="check"></i>Implementação de tecnologias educacionais</li>
-              </ul>
-              <a href="#contato" class="btn btn-outline">Saiba Mais</a>
-            </div>
-            
-            <div class="service-card">
-              <div class="service-icon">
-                <i data-feather="cpu"></i>
-              </div>
-              <h3>IA na Educação</h3>
-              <p>
-                Workshops e capacitações sobre a aplicação de Inteligência Artificial no contexto 
-                educacional, para otimizar processos de ensino e aprendizagem.
-              </p>
-              <ul class="service-list">
-                <li><i data-feather="check"></i>Workshops práticos sobre IA</li>
-                <li><i data-feather="check"></i>Implementação de assistentes virtuais</li>
-                <li><i data-feather="check"></i>Análise de dados educacionais</li>
-              </ul>
-              <a href="#contato" class="btn btn-outline">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- Career Section -->
-      <section id="carreira" class="career">
-        <div class="container">
-          <div class="section-header">
-            <span class="tag">Transforme Seu Futuro</span>
-            <h2>Primeiro Emprego / Transição de Carreira</h2>
-            <p class="section-subtitle">
-              Orientação especializada para quem busca o primeiro emprego ou deseja mudar de área profissional.
-            </p>
-            <div class="header-line"></div>
-          </div>
-          
-          <div class="career-grid">
-            <!-- First-time job seekers -->
-            <div class="career-column">
-              <h3 class="career-title">
-                <i data-feather="users"></i>
-                Primeiro Emprego
-              </h3>
-              
-              <div class="career-cards">
-                <div class="career-card">
-                  <h4>Preparação Completa</h4>
-                  <p>
-                    Desenvolvemos suas habilidades técnicas e comportamentais para garantir que você esteja 
-                    totalmente preparado para iniciar sua carreira no mercado de tecnologia.
-                  </p>
-                  <ul class="career-list">
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Elaboração de currículo profissional</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Simulações de entrevistas</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Orientação para testes técnicos</span>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div class="career-card">
-                  <h4>Direcionamento Estratégico</h4>
-                  <p>
-                    Ajudamos você a identificar as melhores oportunidades de acordo com seu perfil, 
-                    interesses e o mercado atual.
-                  </p>
-                  <ul class="career-list">
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Mapeamento de perfil profissional</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Análise de mercado e tendências</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Estratégias de networking</span>
-                    </li>
-                  </ul>
-                </div>
+              <div class="floating-icon icon-3">
+                <i data-feather="edit"></i>
               </div>
-            </div>
-            
-            <!-- Career transition -->
-            <div class="career-column">
-              <h3 class="career-title">
-                <i data-feather="briefcase"></i>
-                Transição de Carreira
-              </h3>
-              
-              <div class="career-cards">
-                <div class="career-card">
-                  <h4>Requalificação Profissional</h4>
-                  <p>
-                    Planejamos sua jornada de aprendizado para adquirir as competências necessárias 
-                    para realizar uma transição de carreira bem-sucedida.
-                  </p>
-                  <ul class="career-list">
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Mapeamento de habilidades transferíveis</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Plano de estudos personalizado</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Orientação para certificações estratégicas</span>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div class="career-card">
-                  <h4>Estratégia de Transição</h4>
-                  <p>
-                    Desenvolvemos um plano gradual e seguro para sua mudança de carreira, 
-                    minimizando riscos e maximizando suas chances de sucesso.
-                  </p>
-                  <ul class="career-list">
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Planejamento financeiro para a transição</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Estratégias para ganhar experiência</span>
-                    </li>
-                    <li>
-                      <i data-feather="arrow-right"></i>
-                      <span>Reposicionamento de marca pessoal</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Results section -->
-          <div class="results-box">
-            <h3 class="results-title">
-              <i data-feather="trending-up"></i>
-              Resultados que Transformam Vidas
-            </h3>
-            
-            <div class="results-stats">
-              <div class="stat-item">
-                <div class="stat-number">93%</div>
-                <p>dos nossos mentorados conseguem emprego em até 6 meses</p>
-              </div>
-              
-              <div class="stat-item">
-                <div class="stat-number">85%</div>
-                <p>relatam aumento significativo de salário após a transição</p>
-              </div>
-              
-              <div class="stat-item">
-                <div class="stat-number">97%</div>
-                <p>de satisfação entre nossos alunos e mentorados</p>
-              </div>
-            </div>
-            
-            <div class="results-cta">
-              <a href="#contato" class="btn btn-light">Inicie Sua Transformação</a>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- AI Section -->
-      <section id="ia-educacao" class="ai-section">
-        <div class="container">
-          <div class="section-header">
-            <span class="tag">O Futuro da Educação</span>
-            <h2>Inteligência Artificial na Educação</h2>
-            <p class="section-subtitle">
-              Transforme a experiência de aprendizagem com as mais avançadas tecnologias de IA.
-            </p>
-            <div class="header-line"></div>
+              <div class="floating-icon icon-4">
+                <i data-feather="grid"></i>
+              </div>
+            </div>
           </div>
-          
-          <div class="ai-content">
-            <div class="ai-visual">
-              <div class="ai-circle">
-                <i data-feather="cpu" class="ai-icon"></i>
-                
-                <div class="floating-icon icon-1">
+
+          <div class="ai-info">
+            <h3>Transformando a Educação com IA</h3>
+
+            <p>
+              A Inteligência Artificial está revolucionando o cenário educacional, possibilitando
+              experiências de aprendizado personalizadas, análises preditivas e automação de tarefas
+              administrativas, permitindo que educadores foquem no que realmente importa: o desenvolvimento
+              de seus alunos.
+            </p>
+
+            <div class="ai-cards">
+              <div class="ai-card">
+                <div class="card-icon blue">
+                  <i data-feather="users"></i>
+                </div>
+                <div>
+                  <h4>Aprendizado Personalizado</h4>
+                  <p>
+                    Sistemas de IA analisam o desempenho individual de cada aluno para criar percursos
+                    de aprendizagem personalizados, respeitando o ritmo e as necessidades específicas.
+                  </p>
+                </div>
+              </div>
+
+              <div class="ai-card">
+                <div class="card-icon green">
                   <i data-feather="bulb"></i>
                 </div>
-                
-                <div class="floating-icon icon-2">
-                  <i data-feather="book"></i>
-                </div>
-                
-                <div class="floating-icon icon-3">
-                  <i data-feather="edit"></i>
-                </div>
-                
-                <div class="floating-icon icon-4">
-                  <i data-feather="grid"></i>
+                <div>
+                  <h4>Automação Inteligente</h4>
+                  <p>
+                    Ferramentas de IA podem automatizar a correção de avaliações, feedback instantâneo
+                    e até mesmo tarefas administrativas, liberando tempo precioso para os educadores.
+                  </p>
                 </div>
               </div>
-            </div>
-            
-            <div class="ai-info">
-              <h3>Transformando a Educação com IA</h3>
-              
-              <p>
-                A Inteligência Artificial está revolucionando o cenário educacional, possibilitando 
-                experiências de aprendizado personalizadas, análises preditivas e automação de tarefas 
-                administrativas, permitindo que educadores foquem no que realmente importa: o desenvolvimento 
-                de seus alunos.
-              </p>
-              
-              <div class="ai-cards">
-                <div class="ai-card">
-                  <div class="card-icon blue">
-                    <i data-feather="users"></i>
-                  </div>
-                  <div>
-                    <h4>Aprendizado Personalizado</h4>
-                    <p>
-                      Sistemas de IA analisam o desempenho individual de cada aluno para criar percursos 
-                      de aprendizagem personalizados, respeitando o ritmo e as necessidades específicas.
-                    </p>
-                  </div>
-                </div>
-                
-                <div class="ai-card">
-                  <div class="card-icon green">
-                    <i data-feather="bulb"></i>
-                  </div>
-                  <div>
-                    <h4>Automação Inteligente</h4>
-                    <p>
-                      Ferramentas de IA podem automatizar a correção de avaliações, feedback instantâneo 
-                      e até mesmo tarefas administrativas, liberando tempo precioso para os educadores.
-                    </p>
-                  </div>
-                </div>
-                
-                <div class="ai-card">
-                  <div class="card-icon orange">
-                    <i data-feather="book"></i>
-                  </div>
-                  <div>
-                    <h4>Análise Preditiva</h4>
-                    <p>
-                      Modelos preditivos podem identificar precocemente alunos em risco de evasão 
-                      ou com dificuldades específicas, permitindo intervenções preventivas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- AI CTA Box -->
-          <div class="ai-cta-box">
-            <div class="ai-cta-left">
-              <h3>Workshops e Capacitações</h3>
-              <p>
-                Oferecemos workshops e programas de capacitação para educadores e instituições 
-                que desejam implementar soluções de IA em seus processos educacionais.
-              </p>
-              
-              <ul class="ai-list blue">
-                <li>Fundamentos de IA para Educadores</li>
-                <li>Implementação de Chatbots Educacionais</li>
-                <li>Análise de Dados Educacionais com IA</li>
-                <li>Personalização do Aprendizado com IA</li>
-              </ul>
-              
-              <a href="#contato" class="btn btn-primary">
-                Saiba Mais Sobre Nossas Capacitações
-              </a>
-            </div>
-            
-            <div class="ai-cta-right">
-              <h3>Consultoria Especializada</h3>
-              <p>
-                Nossa equipe de especialistas oferece consultoria personalizada para implementação 
-                de soluções de IA adaptadas às necessidades específicas de sua instituição educacional.
-              </p>
-              
-              <ul class="ai-list white">
-                <li>Diagnóstico de necessidades tecnológicas</li>
-                <li>Planejamento estratégico de implementação</li>
-                <li>Capacitação de equipes pedagógicas</li>
-                <li>Monitoramento e otimização contínua</li>
-              </ul>
-              
-              <a href="#contato" class="btn btn-light">
-                Solicite uma Consultoria
-              </a>
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- Contact Section -->
-      <section id="contato" class="contact">
-        <div class="container">
-          <div class="section-header">
-            <span class="tag">Fale Conosco</span>
-            <h2>Entre em Contato</h2>
-            <p class="section-subtitle">
-              Estamos prontos para ajudar você a transformar sua carreira ou sua instituição educacional.
+        <!-- AI CTA Box -->
+        <div class="ai-cta-box">
+          <div class="ai-cta-left">
+            <h3>Workshops e Capacitações</h3>
+            <p>
+              Oferecemos workshops e programas de capacitação para educadores e instituições
+              que desejam implementar soluções de IA em seus processos educacionais.
             </p>
-            <div class="header-line"></div>
-          </div>
-          
-          <div class="contact-grid">
-            <!-- Contact Information -->
-            <div class="contact-info">
-              <div class="info-card gradient">
-                <h3>Informações de Contato</h3>
-                
-                <div class="info-items">
-                  <div class="info-item">
-                    <div class="info-icon">
-                      <i data-feather="phone"></i>
-                    </div>
-                    <div>
-                      <h4>Telefone</h4>
-                      <p>(51) 99999-9999</p>
-                    </div>
-                  </div>
-                  
-                  <div class="info-item">
-                    <div class="info-icon">
-                      <i data-feather="mail"></i>
-                    </div>
-                    <div>
-                      <h4>Email</h4>
-                      <p>contato@infinitydev.com.br</p>
-                    </div>
-                  </div>
-                  
-                  <div class="info-item">
-                    <div class="info-icon">
-                      <i data-feather="map-pin"></i>
-                    </div>
-                    <div>
-                      <h4>Endereço</h4>
-                      <p>Porto Alegre, RS</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="info-card">
-                <h3>Horário de Atendimento</h3>
-                <div class="schedule">
-                  <div class="schedule-item">
-                    <span>Segunda - Sexta</span>
-                    <span>8:00 - 18:00</span>
-                  </div>
-                  <div class="schedule-item">
-                    <span>Sábado</span>
-                    <span>9:00 - 14:00</span>
-                  </div>
-                  <div class="schedule-item">
-                    <span>Domingo</span>
-                    <span>Fechado</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Contact Form -->
-            <div class="contact-form-container">
-              <h3>Envie uma Mensagem</h3>
-              
-              <div id="form-success" class="form-message success" style="display: none;">
-                <p><strong>Mensagem enviada com sucesso!</strong></p>
-                <p>Entraremos em contato o mais breve possível.</p>
-              </div>
-              
-              <div id="form-error" class="form-message error" style="display: none;">
-                <p><strong>Erro ao enviar mensagem.</strong></p>
-                <p>Por favor, tente novamente ou entre em contato por telefone.</p>
-              </div>
-              
-              <form id="contact-form" action="process-form.php" method="POST" class="contact-form">
-                <div class="form-group">
-                  <label for="name">Nome Completo</label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                    placeholder="Seu nome"
-                  />
-                </div>
-                
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input
-                      id="email"
-                      name="email"
-                      type="email"
-                      required
-                      placeholder="seu@email.com"
-                    />
-                  </div>
-                  
-                  <div class="form-group">
-                    <label for="phone">Telefone</label>
-                    <input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      placeholder="(00) 00000-0000"
-                    />
-                  </div>
-                </div>
-                
-                <div class="form-group">
-                  <label for="message">Mensagem</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    required
-                    placeholder="Como podemos ajudar?"
-                  ></textarea>
-                </div>
-                
-                <button type="submit" class="btn btn-primary btn-full">
-                  <span id="submit-text">Enviar Mensagem</span>
-                  <span id="submit-loading" style="display: none;">
-                    <i data-feather="loader" class="spin"></i>
-                    Enviando...
-                  </span>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <div class="logo-text">InfinityDev</div>
-            <p>Tecnologia e Educação</p>
-          </div>
-          
-          <div class="footer-nav">
-            <h4>Links Rápidos</h4>
-            <ul>
-              <li><a href="#quem-sou">Quem Sou</a></li>
-              <li><a href="#servicos">Serviços</a></li>
-              <li><a href="#carreira">Carreira</a></li>
-              <li><a href="#ia-educacao">IA na Educação</a></li>
-              <li><a href="#contato">Contato</a></li>
+            <ul class="ai-list blue">
+              <li>Fundamentos de IA para Educadores</li>
+              <li>Personalização do Aprendizado com IA</li>
             </ul>
+
+            <a href="#contato" class="btn btn-primary">
+              Saiba Mais Sobre Nossas Capacitações
+            </a>
           </div>
-          
-          <div class="footer-social">
-            <h4>Redes Sociais</h4>
-            <div class="social-icons">
-              <a href="#" class="social-icon">
-                <i data-feather="instagram"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i data-feather="facebook"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i data-feather="linkedin"></i>
-              </a>
-            </div>
+
+          <div class="ai-cta-right">
+            <h3>Capacitação em Inteligência Artificial para Educadores</h3>
+            <p>
+              Ofereço programas personalizados para capacitar professores na integração eficaz de ferramentas de IA em
+              suas práticas pedagógicas, promovendo inovação e melhoria contínua no processo de ensino-aprendizagem.
+            </p>
+
+            <ul class="ai-list white">
+              <li>Diagnóstico das necessidades e competências tecnológicas</li>
+              <li>Desenvolvimento de planos de aula utilizando IA</li>
+              <li>Formação em ferramentas de IA aplicadas à educação</li>
+              <li>Acompanhamento e suporte na implementação das tecnologias</li>
+            </ul>
+
+
+            <a href="#contato" class="btn btn-light">
+              Solicite uma Consultoria
+            </a>
           </div>
-        </div>
-        
-        <div class="footer-bottom">
-          <p>© 2025 InfinityDev Mentorias. Todos os direitos reservados.</p>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="js/script.js"></script>
-  </body>
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Fale Conosco</span>
+          <h2>Entre em Contato</h2>
+          <p class="section-subtitle">
+            Estamos prontos para ajudar você a transformar sua carreirae você professor desmistifico o uso das
+            ferramentas digitais para você ganhar tempo usando recursos de IA.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <div class="info-card gradient">
+              <h3>Informações de Contato</h3>
+
+              <div class="info-items">
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i data-feather="phone"></i>
+                  </div>
+                  <div>
+                    <h4>Telefone</h4>
+                    <p>(51) 99884-9636</p>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i data-feather="mail"></i>
+                  </div>
+                  <div>
+                    <h4>Email</h4>
+                    <p>jeferson@infinitydev.com.br</p>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i data-feather="map-pin"></i>
+                  </div>
+                  <div>
+                    <h4>Endereço</h4>
+                    <p>Cachoeirinha, RS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3>Horário de Atendimento</h3>
+              <div class="schedule">
+                <div class="schedule-item">
+                  <span>Segunda - Sexta</span>
+                  <span>8:00 - 11:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h3>Envie uma Mensagem</h3>
+
+            <div id="form-success" class="form-message success" style="display: none;">
+              <p><strong>Mensagem enviada com sucesso!</strong></p>
+              <p>Entraremos em contato o mais breve possível.</p>
+            </div>
+
+            <div id="form-error" class="form-message error" style="display: none;">
+              <p><strong>Erro ao enviar mensagem.</strong></p>
+              <p>Por favor, tente novamente ou entre em contato por telefone.</p>
+            </div>
+
+            <form id="contact-form" action="process-form.php" method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input id="name" name="name" type="text" required placeholder="Seu nome" />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" required placeholder="seu@email.com" />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Telefone</label>
+                  <input id="phone" name="phone" type="tel" placeholder="(00) 00000-0000" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Como podemos ajudar?"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <span id="submit-text">Enviar Mensagem</span>
+                <span id="submit-loading" style="display: none;">
+                  <i data-feather="loader" class="spin"></i>
+                  Enviando...
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-text">InfinityDev</div>
+          <p>Tecnologia e Educação</p>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#quem-sou">Quem Sou</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#carreira">Carreira</a></li>
+            <li><a href="#ia-educacao">IA na Educação</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Redes Sociais</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon">
+              <i data-feather="instagram"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i data-feather="facebook"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i data-feather="linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 InfinityDev Mentorias. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
