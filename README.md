@@ -1,69 +1,79 @@
-# Welcome to your Lovable project
+# Projeto InfinityDev
 
-## Project info
+Bem-vindo ao **Projeto InfinityDev**, uma iniciativa dedicada a proporcionar mentorias personalizadas, focadas em desenvolvimento pessoal, profissional e acadêmico. Este projeto tem como objetivo ajudar pessoas a alcançar seus objetivos por meio de orientação especializada.
 
-**URL**: https://lovable.dev/projects/1324edf3-251d-4409-924a-f7913a592183
+## Índice
 
-## How can I edit this code?
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Objetivos](#objetivos)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Contribuir](#como-contribuir)
+- [Como Rodar o Projeto](#como-rodar-o-projeto)
+- [Licença](#licença)
+- [Contato](#contato)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Sobre o Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1324edf3-251d-4409-924a-f7913a592183) and start prompting.
+O **Projeto InfinityDev** foi desenvolvido para conectar minha mentoria com mentorados em busca de desenvolvimento. Com uma abordagem flexível e acessível, buscamos transformar vidas, oferecendo suporte nas áreas de carreira, educação e empreendedorismo.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Objetivos
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Proporcionar mentorias para pessoas em diferentes estágios da carreira e vida acadêmica.
+- Fomentar o desenvolvimento de habilidades profissionais e pessoais.
+- Criar uma rede de apoio colaborativo para troca de conhecimentos.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Tecnologias Utilizadas
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Frontend:** HTML, CSS
+- **Backend:** JS
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## Como Contribuir
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Faça um fork deste repositório.
+2. Crie uma branch com sua feature ou correção (`git checkout -b minha-feature`).
+3. Commit suas mudanças (`git commit -am 'Adiciona nova funcionalidade'`).
+4. Push para a branch (`git push origin minha-feature`).
+5. Abra um Pull Request.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Como Rodar o Projeto
 
-## What technologies are used for this project?
+Siga os passos abaixo para rodar o projeto localmente:
 
-This project is built with .
+1. Clone o repositório:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+    ```sh
+    git clone https://github.com/jefersonfaleiro/infinitydev-landing-venture.git
+    ```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/1324edf3-251d-4409-924a-f7913a592183) and click on Share -> Publish.
+## Licença
 
-## I want to use a custom domain - is that possible?
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+---
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, entre em contato conosco:
+
+- **Email:** jeferson@infinitydev.com.br
+- **LinkedIn:** [LinkedIn do Projeto InfinityDev](https://#)
+- **Site:** [www.infinitydev.com.br](http://www.infinitydev.com.br)
+
+---
+
+Obrigado por fazer parte do **Projeto InfinityDev**! Esperamos que você aproveite a jornada de aprendizado e crescimento conosco.

@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     // Email settings
-    $to = 'contato@infinitydev.com.br'; // Replace with your email
+    $to = 'jeferson@infinitydev.com.br'; // Replace with your email
     $subject = 'Nova mensagem do formulário de contato - InfinityDev Mentorias';
     
     // Email content
